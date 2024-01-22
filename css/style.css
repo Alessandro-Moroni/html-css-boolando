@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: start;
+  width: 80%;
+  max-width: 2400px;
+  margin: 20px auto;
+}
+
+.display-photo{
+  position: relative;
+
+}
+
+.firt-photo:hover{
+display: none;
+cursor: pointer;
+}
+
+.second-photo{
+  display: none;
+}
+.hearts{
+  height: 60px;
+  width: 60px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.discount{
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
+.sostenibilità{
+  background-color: green;
+  color: white;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
+}
+
+.red{
+  color: red;
+}
+
+.sostenibilità2{
+  background-color: green;
+  color: white;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  left:0;
+}
