@@ -17,6 +17,7 @@ body{
   width: 80%;
   max-width: 2400px;
   margin: 20px auto;
+  padding-bottom: 30px;
 }
 
 .display-photo{
@@ -24,14 +25,30 @@ body{
 
 }
 
-.firt-photo:hover{
-display: none;
-cursor: pointer;
+.display-photo img{
+  height: 924px;
+  width: 640px;
+}
+
+.first-photo{
+  display: inline-block;
+  
 }
 
 .second-photo{
   display: none;
 }
+
+.display-photo:hover .second-photo{
+  display: inline-block;
+  cursor: pointer;
+}
+.display-photo:hover .first-photo{
+display: none;
+cursor: pointer;
+}
+
+
 .hearts{
   height: 60px;
   width: 60px;
@@ -86,4 +103,13 @@ cursor: pointer;
   position: absolute;
   bottom: 20px;
   left:0;
+}
+
+.third{
+  height: 924px;
+  width: 640px;
+}
+
+.line{
+  text-decoration: line-through;
 }
